@@ -20,9 +20,11 @@ return new class extends Migration
             $table->string('image')->nullable();
             $table->enum('status', ['draft', 'live', 'removed'])->default('draft');
             $tale->string('keyphrase')->nullable();
-            $table->string('seo-title')->nullable();
+            $table->json('tags')->nullable();
+            $table->string('meta-title')->nullable();
             $table->string('slug')->nullable();
-            $table->string('meta')->nullable();
+            $table->string('meta-description')->nullable();
+            $table->string('meta-keywords')->nullable();
             $table->unsignedBigInteger('author')->required();
             $table->foreign('author')->references('id')->on('users')->onDelete('cascade');
             $table->unsignedBigInteger('category')->required();

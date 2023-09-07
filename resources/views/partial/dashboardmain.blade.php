@@ -95,7 +95,7 @@ Header START -->
 	<nav class="navbar navbar-expand-xl">
 		<div class="container">
 			<!-- Logo START -->
-			<a class="navbar-brand me-3" href="index.html">
+			<a class="navbar-brand me-3" href="/">
 				<img class="navbar-brand-item light-mode-item" src="{{asset('assets/images/logo.svg')}}" alt="logo">			
 				<img class="navbar-brand-item dark-mode-item" src="{{asset('assets/images/logo-light.svg')}}" alt="logo">			
 			</a>
@@ -112,17 +112,17 @@ Header START -->
 				<ul class="navbar-nav navbar-nav-scroll mx-auto">
 
 					<!-- Nav item 1 Demos -->
-					<li class="nav-item"><a class="nav-link" href="dashboard.html"><i class="bi bi-house-door me-1"></i>Dashboard</a></li>
+					<li class="nav-item"><a class="nav-link" href="/dashboard"><i class="bi bi-house-door me-1"></i>Dashboard</a></li>
 
 					<!-- Nav item 2 Post -->
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="postMenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="bi bi-pencil me-1"></i>Post</a>
 						<ul class="dropdown-menu" aria-labelledby="postMenu">
 							<!-- dropdown submenu -->
-							<li> <a class="dropdown-item" href="dashboard-post-list.html">Post List</a> </li>
-							<li> <a class="dropdown-item" href="dashboard-post-categories.html">Post Categories</a> </li>
-							<li> <a class="dropdown-item" href="dashboard-post-create.html">Create a Post</a> </li>
-							<li> <a class="dropdown-item" href="dashboard-post-edit.html">Edit Post</a> </li>
+							<li> <a class="dropdown-item" href="/dashboard/post-list">Post List</a> </li>
+							<li> <a class="dropdown-item" href="/dashboard/post-category">Post Categories</a> </li>
+							<li> <a class="dropdown-item" href="/dashboard/post-create">Create a Post</a> </li>
+							<li> <a class="dropdown-item" href="/dashboard/post-edit">Edit Post</a> </li>
 						</ul>
 					</li>
 
@@ -130,17 +130,8 @@ Header START -->
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="pagesMenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="bi bi-folder me-1"></i>Pages</a>
 						<ul class="dropdown-menu" aria-labelledby="pagesMenu">
-							<li> <a class="dropdown-item" href="dashboard-author-list.html">Author List</a></li>
-							<li> <a class="dropdown-item" href="dashboard-author-single.html">Author Single</a></li>
-							<li> <a class="dropdown-item" href="dashboard-edit-profile.html">Edit Profile</a></li>
-							<li> <a class="dropdown-item" href="dashboard-reviews.html">Reviews</a></li>
-							<li> <a class="dropdown-item" href="dashboard-settings.html">Settings</a></li>
-							<li class="dropdown-divider"></li>
-							<li> <a class="dropdown-item" href="https://support.webestica.com/" target="_blank"> <i class="text-warning fa-fw bi bi-life-preserver me-2"></i>Support</a></li>
-							<li> <a class="dropdown-item" href="docs/index.html" target="_blank"> <i class="text-danger fa-fw bi bi-card-text me-2"></i>Documentation</a></li>
-							<li class="dropdown-divider"></li>
-							<li><a class="dropdown-item" href="https://blogzine.webestica.com/rtl" target="_blank"> <i class="text-info fa-fw bi bi-toggle-off me-2"></i>RTL demo</a></li>
-							<li><a class="dropdown-item" href="https://themes.getbootstrap.com/store/webestica/" target="_blank"> <i class="text-success fa-fw bi bi-cloud-download-fill me-2"></i>Buy blogzine!</a> </li>
+							<li> <a class="dropdown-item" href="/dashboard/author-list">Author List</a></li>
+							<li> <a class="dropdown-item" href="/dashboard/profile-edit">Edit Profile</a></li>
 						</ul>
 					</li>
 				</ul>
