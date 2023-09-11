@@ -81,6 +81,7 @@
 	<link rel="stylesheet" type="text/css" href="{{asset('assets/vendor/bootstrap-icons/bootstrap-icons.css')}}">
 	<link rel="stylesheet" type="text/css" href="{{asset('assets/vendor/apexcharts/css/apexcharts.css')}}">
 	<link rel="stylesheet" type="text/css" href="{{asset('assets/vendor/overlay-scrollbar/css/OverlayScrollbars.min.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{asset('assets/vendor/quill/css/quill.snow.css')}}">
 
 	<!-- Theme CSS -->
 	<link id="style-switch" rel="stylesheet" type="text/css" href="{{asset('assets/css/style.css')}}">
@@ -361,6 +362,7 @@ Footer START -->
   <!-- Vendors -->
   <script src="{{asset('assets/vendor/apexcharts/js/apexcharts.min.js')}}"></script>
   <script src="{{asset('assets/vendor/overlay-scrollbar/js/OverlayScrollbars.min.js')}}"></script>
+  <script src="{{asset('assets/vendor/quill/js/quill.min.js')}}"></script>
   
   <!-- Template Functions -->
   <script src="{{asset('assets/js/functions.js')}}"></script>
